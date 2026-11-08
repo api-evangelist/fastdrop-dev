@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FastDrop operates fastdrop.dev, a launch board and liveness layer for agent‑ready software. It probes MCP endpoints with initialize and tools/list, publishes the tools actually returned, and lets agents discover, submit, and vote over MCP. The platform provides a free launch board for agent‑ready software, offering do‑follow backlinks, discovery over MCP from Claude, ChatGPT, or any client, and live probing that shows which MCP tools actually answer.
+FastDrop operates fastdrop.dev, a launch board and liveness layer for agent‑ready software. It discovers MCP endpoints, probes them for available tools, and lets AI agents discover, submit, and vote over MCP integrations. The platform provides a searchable catalog of products, a do‑follow backlink service, and public documentation for developers to integrate their tools with AI agents.
 
-**Areas:** launch-board · MCP · AI-agents · software-discovery · free-service
+**Areas:** Company · LaunchBoard · MCP · AI · DeveloperTools · Platform
 
 ## FastDrop on APIs.io
 
@@ -127,14 +127,15 @@ The permissions the API asks for.
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://fastdrop.dev/)
-- [Documentation](https://fastdrop.dev/category/docs)
-- [API reference](https://fastdrop.dev/developers)
+- [Documentation](https://fastdrop.dev/developers)
+- [Pricing](https://fastdrop.dev/#pricing)
+- [Sign up](https://fastdrop.dev/app/submit)
 - [Terms of service](https://fastdrop.dev/terms)
 - [Privacy policy](https://fastdrop.dev/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 46.5** — developing · rubric 0.27.0 · scored 2026-11-07
+**Kin Score 50.0** — developing · rubric 0.27.0 · scored 2026-11-08
 
 | Facet | Score |
 |---|---|
@@ -142,10 +143,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Contract quality | 59.9 |
 | Contract governance | 79.1 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 28.6 |
-| Access clarity | 34.2 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 44.7 |
 
-**Agent readiness 52.0** — agent-ready (gated down from agent-native)
+**Agent readiness 44.9** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -153,26 +154,26 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | served (partial credit) |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | verified |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
-| Delegated Identity | served (partial credit) |
+| Delegated Identity | documented (partial credit) |
 | Protected Resource Metadata | — |
-| Dynamic Client Registration | yes |
+| Dynamic Client Registration | — |
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
 
-**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fastdrop-dev/](https://apis.io/providers/fastdrop-dev/).
 
