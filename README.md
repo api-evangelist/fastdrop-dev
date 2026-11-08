@@ -1,4 +1,4 @@
-# fastdrop-dev
+# FastDrop
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-fastdrop-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://fastdrop.dev/
+FastDrop operates fastdrop.dev, a launch board and liveness layer for agent‑ready software. It probes MCP endpoints with initialize and tools/list, publishes the tools actually returned, and lets agents discover, submit, and vote over MCP. The platform provides a free launch board for agent‑ready software, offering do‑follow backlinks, discovery over MCP from Claude, ChatGPT, or any client, and live probing that shows which MCP tools actually answer.
+
+**Areas:** launch-board · MCP · AI-agents · software-discovery · free-service
+
+## FastDrop on APIs.io
+
+Everything profiled for FastDrop is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fastdrop-dev/](https://apis.io/providers/fastdrop-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [FastDrop Health API](https://apis.io/apis/fastdrop-dev/fastdrop-dev-health-api/) — Liveness probes for the API itself
+- [FastDrop MCP API](https://apis.io/apis/fastdrop-dev/fastdrop-dev-mcp-api/) — Model Context Protocol server over Streamable HTTP. JSON-RPC 2.0 bodies; see https://modelcontextprotocol.io
+- [FastDrop Subregistry API](https://apis.io/apis/fastdrop-dev/fastdrop-dev-subregistry-api/) — MCP Registry OpenAPI-compatible server list with FastDrop liveness metadata added under _meta
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Fastdrop Dev Agentic Access](https://apis.io/agentic-access/fastdrop-dev/fastdrop-dev-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [JsonRpcRequest](https://apis.io/schemas/fastdrop-dev/fastdrop-dev-json-rpc-request/)
+- [JsonRpcResponse](https://apis.io/schemas/fastdrop-dev/fastdrop-dev-json-rpc-response/)
+- [ServerEntry](https://apis.io/schemas/fastdrop-dev/fastdrop-dev-server-entry/)
+- [ServerList](https://apis.io/schemas/fastdrop-dev/fastdrop-dev-server-list/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Fastdrop Dev Context](https://apis.io/jsonld/fastdrop-dev/fastdrop-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FastDrop API Rules](https://apis.io/rules/fastdrop-dev/fastdrop-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fastdrop Dev Authentication](https://apis.io/security/fastdrop-dev/fastdrop-dev-authentication/)
+- [Fastdrop Dev Domain Security](https://apis.io/security/fastdrop-dev/fastdrop-dev-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Fastdrop Dev Scopes](https://apis.io/scopes/fastdrop-dev/fastdrop-dev-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fastdrop.dev/)
+- [Documentation](https://fastdrop.dev/category/docs)
+- [API reference](https://fastdrop.dev/developers)
+- [Terms of service](https://fastdrop.dev/terms)
+- [Privacy policy](https://fastdrop.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 46.5** — developing · rubric 0.27.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 34.2 |
+
+**Agent readiness 52.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fastdrop-dev/](https://apis.io/providers/fastdrop-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FastDrop: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fastdrop-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
